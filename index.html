@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transformer Calculator</h1>
+        <div class="input-container">
+            <label for="primary-voltage">Primary Voltage (V):</label>
+            <input type="number" id="primary-voltage" placeholder="Enter primary voltage">
+        </div>
+        <div class="input-container">
+            <label for="secondary-voltage">Secondary Voltage (V):</label>
+            <input type="number" id="secondary-voltage" placeholder="Enter secondary voltage">
+        </div>
+        <div class="input-container">
+            <label for="core-length">Core Length (cm):</label>
+            <input type="number" id="core-length" placeholder="Enter core length">
+        </div>
+        <div class="input-container">
+            <label for="core-width">Core Width (cm):</label>
+            <input type="number" id="core-width" placeholder="Enter core width">
+        </div>
+        <div class="button-container">
+            <button onclick="calculate()" class="stylish-button">Calculate</button>
+        </div>
+        <div id="result" class="result-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
